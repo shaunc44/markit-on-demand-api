@@ -33,7 +33,7 @@ class Markit():
 
         for _ in quote_response.json():
             if _ == 'LastPrice':
-                print(' ')
+                cleprint(' ')
                 print(_, quote_response.json()[_])
             # print(_, quote_response.json()['LastPrice'])
             # print(type(_))
